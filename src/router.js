@@ -1,7 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Activity from "./components/Activity.vue";
-import Home from "./components/Home.vue";
+import Articles from "./views/Articles.vue";
 
 Vue.use(Router);
 
@@ -12,7 +12,7 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Articles
     },
     {
       path: "/activity",
